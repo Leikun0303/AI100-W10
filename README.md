@@ -97,12 +97,15 @@ for i in range(len(ids)):
     
 ```
 label 13 : horse
+
 label 15 : person
 
 原图
+
 ![原图](./mdimg/2007_000392.jpg)
 
 标签
+
 ![标签](./mdimg/2007_000392.png)
 
 ### feature_dict
@@ -166,6 +169,7 @@ plt.show()
 [224 224   3]
 
 Crop后的图片
+
 ![标签](./mdimg/2007_000392_crop.png)
 
 ## FCN-8s模型
@@ -291,13 +295,17 @@ tinymind运行log：
 ```
 
 原图
+
 ![原图](./mdimg/val_200_img.jpg)
 
 标签
+
 ![标签](./mdimg/val_200_annotation.jpg)
 
 预测
+
 ![预测](./mdimg/val_200_prediction.jpg)
 
 CRF之后的预测
+
 ![预测](./mdimg/val_200_prediction_crfed.jpg)
